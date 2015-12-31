@@ -86,7 +86,7 @@ function squarekittens_get_header_image() {
 		} else {
 			if (get_theme_mod( 'squarekittens_header_link' )) {
 				echo '<a href="'. esc_url( get_theme_mod( 'squarekittens_header_link' ) ) .'"><img class="header-image" src="' . esc_url( get_header_image() ) . '" alt="' . esc_attr( get_bloginfo( 'description' ) ) . '" /></a>';
-			} else if ( '' != get_the_post_thumbnail() ) {
+			} elseif ( '' != get_the_post_thumbnail() ) {
 				echo '<a class="featured-image" href="' . the_permalink() . '" title="' . the_title_attribute() . '">' . the_post_thumbnail( 'large-image' ) . '</a>';
 			} else {
 				echo '<img class="header-image" src="' . esc_url( get_header_image() ) . '" alt="' . esc_attr( get_bloginfo( 'description' ) ) . '" />';
