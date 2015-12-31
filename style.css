@@ -18,6 +18,11 @@ Template: omega
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300,400);
 @import url(//fonts.googleapis.com/css?family=Satisfy);
 
+img.wp-post-image {
+	margin: 0 auto;
+	display: block;
+}
+
 /* Baseline Reset (normalize.css 2.1.2)
 	Link: http://necolas.github.com/normalize.css/
 --------------------------------------------- */
