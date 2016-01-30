@@ -687,8 +687,8 @@ Site Navigation
 	border: 1px solid #f2f2f2;
 }
 
-.omega-nav-menu .menu-item,
-.omega-nav-menu .page_item {
+.omega-nav-menu .menu-item {
+/*.omega-nav-menu .page_item {*/
 	display: inline-block;
 	margin: 0;
 	padding: 0;
